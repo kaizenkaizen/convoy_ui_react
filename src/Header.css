@@ -1,0 +1,46 @@
+#convoyHeader {
+  width: 100%;
+  background: #FFFFFF;
+  height: 56px;
+  min-width: 555px;
+  display: flex;
+  flex-direction: row;
+}
+
+#logoHolder{
+  margin-left:48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#convoyLogo{
+  width:111px;
+  height:16px;
+}
+
+#offersHeader, #myJobsHeader {
+  font-family: proxima_nova_reg;
+  font-size: 16px;
+  color: #0B2127;
+  background-color: #FFFFFF;
+  letter-spacing: 0.4px;
+  line-height: 20px;
+  width: 93px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+}
+
+#offersHeader {
+  margin-left: 32px;
+  border-bottom: solid 3px #F75335;
+}
+
+#myJobsHeader {
+  border-bottom: solid 3px #FFFFFF;
+}

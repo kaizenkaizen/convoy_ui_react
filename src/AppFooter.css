@@ -1,0 +1,25 @@
+#appFooter{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  min-width: 555px;
+
+  height: 141px;
+  background: #FFFFFF;
+  font-size: 20px;
+  color: #B4BBBF;
+  letter-spacing: 0.5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#nonFooterHolder{
+  padding-bottom: 164px;
+}
+
+#appHolder{
+  position: relative;
+  min-height: 100vh;
+}

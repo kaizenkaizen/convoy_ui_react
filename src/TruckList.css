@@ -1,0 +1,142 @@
+#convoyTruckList{
+  background: #FFFFFF;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+  border-radius: 4px;
+
+  margin-top: 9px;
+  margin-left: 55px;
+  margin-right: 55px;
+  min-width: 500px;
+
+
+  display: flex;
+  flex-direction: column;
+}
+
+.routeElement{
+  width:100%;
+}
+
+.locationStepperAndLocationHolder{
+  display: flex;
+  margin-top: 32px;
+  width:100%;
+}
+
+.locationStepper{
+  margin-left:35px;
+  margin-right:10px;
+}
+
+.firstBall{
+  margin-top: 5px;
+  width:10px;
+  height:10px;
+  border-radius: 50%;
+  background: #B5BBBE;
+}
+
+.secondBall {
+  width:10px;
+  height:10px;
+  border-radius: 50%;
+  background: #B5BBBE;
+}
+
+.connectingLine{
+  width: 0px;
+  height: 47px;
+  border-left:solid;
+  border-color:#B5BBBE;
+  border-width: 2px;
+  margin-left:4px;
+}
+
+.locationHolder{
+  width:100%;
+}
+
+.originLocationTruckTypeMilesPrice{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.originLocation{
+  font-size: 18px;
+  color: #0A2127;
+  letter-spacing: 0.45px;
+  line-height: 20px;
+  font-weight: 900;
+}
+
+.truckTypeMilesPrice{
+  display: flex;
+}
+
+/* .truckType{
+  font-size: 18px;
+  color: #0B2127;
+  letter-spacing: 0.45px;
+  line-height: 20px;
+
+  width:136px;
+  height:20px;
+  display: flex;
+} */
+
+.miles{
+  font-size: 18px;
+  color: #0A2127;
+  letter-spacing: 0.45px;
+  text-align: right;
+  line-height: 20px;
+
+  width:141px;
+  height:20px;
+  display: flex;
+}
+
+.price{
+  font-size: 18px;
+  color: #49A54E;
+  letter-spacing: 0.45px;
+  text-align: right;
+  line-height: 20px;
+  font-weight: 900;
+
+  width:115px;
+  height:20px;
+  display: flex;
+
+}
+
+.pickupStartAndEnd {
+  font-size: 16px;
+  color: #7F8D99;
+  letter-spacing: 0.4px;
+  line-height: 20px;
+}
+
+.destinationLocation{
+  font-size: 18px;
+  color: #0B2127;
+  letter-spacing: 0.45px;
+  line-height: 20px;
+  font-weight: 900;
+
+  margin-top: 17px;
+}
+
+.destinationStarAndEnd{
+  font-size: 16px;
+  color: #828E95;
+  letter-spacing: 0.4px;
+  line-height: 20px;
+  margin-bottom:30px;
+}
+
+.offerDivider{
+  width:100%;
+  border-bottom: 1px solid #B3B4B5;
+}

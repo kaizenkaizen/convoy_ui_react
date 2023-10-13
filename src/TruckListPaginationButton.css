@@ -1,0 +1,28 @@
+#truckListPaginationButton{
+  height:41px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+
+#truckListShowMore{
+  background: #848E93;
+  border-radius: 4px;
+  height: 41px;
+  width: 190px;
+
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-left: 55px;
+  outline:none;
+  border:none;
+}
+

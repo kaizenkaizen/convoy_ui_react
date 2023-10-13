@@ -1,0 +1,56 @@
+#convoySortBar{
+  background: #F7F9FA;
+  border: 1px solid #D6DADC;
+  border-radius: 4px;
+
+  height: 52px;
+  margin-top: 30px;
+  margin-left: 55px;
+  margin-right: 55px;
+  min-width: 500px;
+
+  display: flex;
+  align-items: center;
+}
+
+#sortByText{
+  margin-left: 19px;
+  font-size: 16px;
+  color: #5A666C;
+  letter-spacing: 0.4px;
+  text-align: right;
+  line-height: 20px;
+}
+
+#mostRecentDropper{
+  margin-left: 3px;
+  font-size: 16px;
+  color: #0073B2;
+  letter-spacing: 0.4px;
+  text-align: right;
+  line-height: 20px;
+
+  outline:none;
+  border:none;
+  background-color: #F7F9FA;
+}
+
+#sortOfferDropdown{
+  margin-left: 4px;
+  font-size: 16px;
+  color: #0073B2;
+  letter-spacing: 0.4px;
+  text-align: right;
+  line-height: 20px;
+  background-color: #F7F9FA;
+  border:none;
+  box-shadow: 0;
+  outline: none;
+}
+
+
+.reactBootstrapDropdownItem:active{
+  background-color: white;
+  color:#0073B2;
+  outline:none;
+}
